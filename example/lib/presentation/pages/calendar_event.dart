@@ -63,7 +63,7 @@ class _CalendarEventPageState extends State<CalendarEventPage> {
   EventStatus? _eventStatus;
   List<Attendee>? _attendees;
   List<Reminder>? _reminders;
-  List<EventColor>? _eventColors;
+  final List<EventColor>? _eventColors;
   String _timezone = 'Etc/UTC';
 
   _CalendarEventPageState(
